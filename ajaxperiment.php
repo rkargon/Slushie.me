@@ -7,7 +7,8 @@
 $ID=$_GET["articleID"];
 
 //accesses SQL table
-mysql_connect(localhost, "slushie1", "BatteryHorseStaple5lu5h13.");
+$pw = file_get_contents("../passwd.txt")
+mysql_connect("localhost", "slushie1", $pw);
 @mysql_select_db("slushie1_wrd2") or die( "Unable to select database");
 
 //Gets correct article

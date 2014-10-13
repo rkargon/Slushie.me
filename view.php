@@ -10,7 +10,8 @@
 	$category = $_GET["c"];
 	if($category == "all"){$category="";}
 	
-	mysql_connect(localhost, "slushie1", "BatteryHorseStaple5lu5h13.");
+	$pw = file_get_contents("../passwd.txt")
+mysql_connect("localhost", "slushie1", $pw);
 	@mysql_select_db("slushie1_wrd2") or die( "Unable to select database");
 
 	//Get author displayname
