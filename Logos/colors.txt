@@ -1,0 +1,30 @@
+slushie green:
+	#00F000
+	000 240 000
+default grey:
+	#999999
+	153 153 153
+news black:
+	#000000
+	000 000 000
+politics red:
+	#CC0000
+	204 000 000
+tech blue:
+	#0033CC
+	000 051 204
+movies blue:
+	#0099CC
+	000 153 204
+music purple:
+	#9933CC
+	153 051 204
+gaming green:
+	#669900
+	102 153 000
+sports orange:
+	#FF8800
+	255 153 000
+tv pink:
+	#
+	255 051 153

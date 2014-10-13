@@ -1,0 +1,250 @@
+/* General CSS */
+
+body{ 
+    height:100%; 
+    margin:0;
+    background-color: #ffffff; 
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif; 
+    font-size: 14px;
+} 
+h1{ 
+    color: #000000; 
+    text-align: center; 
+}
+
+img { border: none; }
+
+a { color: #36AC08; }
+a:link { text-decoration: none;}
+a:hover { text-decoration: none; color:#124403}
+	
+a.grlink {color:#FF0000 !important;}
+a.grlink:hover {color:#550000 !important;}
+
+a.news{color:#666666 !important;}
+a.politics{color:#CC0000 !important;}
+a.tech{color:#0033CC !important;}
+a.sports{color:#FF8800 !important;}
+a.music{color:#9933CC !important;}
+a.movies{color:#0099CC !important;}
+a.gaming{color:#669900 !important;}
+a.tv {color:#FF3399 !important;}	
+
+a.news:hover{color:#000000 !important;}
+a.politics:hover{color:#550000 !important;}
+a.tech:hover{color:#001145 !important;}
+a.sports:hover{color:#542d00 !important;}
+a.music:hover{color:#331144 !important;}
+a.movies:hover{color:#003344 !important;}
+a.gaming:hover{color:#1F2E00 !important;}
+a.tv:hover{color:#881166 !important;}
+
+body.viewpage a{color:#333333;}
+body.viewpage a:hover{color:#000000;}
+
+body.news a{color:#666666;}
+body.politics a{color:#CC0000;}
+body.tech a{color:#0033CC;}
+body.sports a{color:#FF8800;}
+body.music a{color:#9933CC;}
+body.movies a{color:#0099CC;}
+body.gaming a{color:#669900;}
+body.tv a{color:#FF3399;}	
+
+body.news a:hover{color:#000000;}
+body.politics a:hover{color:#550000;}
+body.tech a:hover{color:#001145;}
+body.sports a:hover{color:#542d00;}
+body.music a:hover{color:#331144;}
+body.movies a:hover{color:#003344;}
+body.gaming a:hover{color:#1F2E00;}
+body.tv a:hover{color:#881166;}
+	
+hr { 
+	background-color: #999999; 
+	height: 3px;
+	border-style:none;
+}
+p { color: #000000; } 
+
+/*Ad CSS*/
+
+div.headerad{display:inline; float:right;}
+span.adtitle{color:#999999; font-style:italic;}
+div.footerad_468{width:468px; height:60px; margin:auto;}
+
+/* Header CSS */
+
+img.logo {margin:1%;}
+img.navbar_logo {visibility:hidden; float:left; margin-left: 10px;}
+img.navbar_logo.visible {visibility:visible;}
+
+div.navbar {background-color:#999999; text-align: center;}
+div.navbar.news {background-color:#000000;}
+div.navbar.politics {background-color:#CC0000;}
+div.navbar.tech {background-color:#0033CC;}
+div.navbar.sports {background-color:#FF8800;}
+div.navbar.music {background-color:#9933CC;}
+div.navbar.movies {background-color:#0099CC;}
+div.navbar.gaming {color:#669900;}
+div.navbar.tv {color:#FF3399;}
+
+/* Menubar CSS */
+ul.menubar.fixed{position:fixed; top:0px; z-index:9001;}
+
+ul.menubar{
+    list-style:none;
+    margin-bottom:0px;
+    margin-top:0px;
+    padding-left: 0px;
+    float:left;
+    width:100%;
+    background:#999999;
+    border-top:solid 4px #999999;
+    border-bottom: solid 4px #999999;
+}
+
+ul.menubar.news {background:#000000; border-top:solid 4px #000000; border-bottom: solid 4px #000000;}
+ul.menubar.politics {background:#CC0000; border-top:solid 4px #CC0000; border-bottom: solid 4px #CC0000;}
+ul.menubar.tech {background:#0033CC; border-top:solid 4px #0033CC; border-bottom: solid 4px #0033CC;}
+ul.menubar.sports {background:#FF8800; border-top:solid 4px #FF8800; border-bottom: solid 4px #FF8800;}
+ul.menubar.music {background:#9933CC; border-top:solid 4px #9933CC; border-bottom: solid 4px #9933CC;}
+ul.menubar.movies {background:#0099CC; border-top:solid 4px #0099CC; border-bottom: solid 4px #0099CC;}
+ul.menubar.gaming {background:#669900; border-top:solid 4px #669900; border-bottom:solid 4px #669900;}
+ul.menubar.tv {background:#FF3399; border-top:solid 4px #FF3399; border-bottom:solid 4px #FF3399;}
+
+ul.menubar li{
+    display:inline;
+    margin-right:10px;
+		position:relative;
+}
+ul.menubar li a:hover { text-decoration: none; color:#333333;}
+ul.menubar li a { margin-left:40px; font-size:120%; color:#ffffff;}
+ul.menubar ul{
+    list-style:none;
+    position:absolute;
+    z-index: 9001;
+    text-align: left;
+    left:-9999px; /* Hide off-screen when not needed (this is more accessible than display:none;) */
+    top:16px;
+}
+ul.menubar ul li{
+    padding-top:1px; /* Introducing a padding between the li and the a give the illusion spaced items */
+    float:none;
+    z-index:9001;
+}
+ul.menubar ul a{white-space:nowrap;} /* Stop text wrapping and creating multi-line dropdown items */
+ul.menubar li ul li{
+    background:#999999; 
+    border: solid 4px #999999;
+    float:left;
+    width:100%;
+}
+ul.menubar.news li ul li {background:#000000; border: solid 4px #000000;}
+ul.menubar.politics li ul li {background:#CC0000; border: solid 4px #CC0000;}
+ul.menubar.tech li ul li {background:#0033CC; border: solid 4px #0033CC;}
+ul.menubar.sports li ul li {background:#FF8800; border: solid 4px #FF8800;}
+ul.menubar.music li ul li {background:#9933CC; border: solid 4px #9933CC;}
+ul.menubar.movies li ul li {background:#0099CC; border: solid 4px #0099CC;}
+ul.menubar.gaming li ul li {background:#669900; border: solid 4px #669900;}
+ul.menubar.tv li ul li {background:#FF3399; border: solid 4px #FF3399;}
+
+ul.menubar li ul li a{ margin-left:0px; font-size:120%; color:#ffffff; width:100%; display:block;}
+
+ul.menubar li:hover ul{left:0;} /* Display the dropdown on hover */
+ul.menubar li:hover a{text-decoration:none;} 
+ul.menubar li:hover ul a{text-decoration:none;}
+ul.menubar li:hover ul li:hover {text-decoration:none;}
+ul.menubar li:hover ul li a:hover{ text-decoration: none; color:#333333; } /* Here we define the most explicit hover states--what happens when you hover each individual link. */
+
+/* Link colors for top-level links (in category pages) */
+ul.menubar.news a:hover{ text-decoration: none; color:#666666;} 
+ul.menubar.politics a:hover{ text-decoration: none; color:#550000;} 
+ul.menubar.tech a:hover{ text-decoration: none; color:#001145;}  
+ul.menubar.sports a:hover{ text-decoration: none; color:#542d00;} 
+ul.menubar.music a:hover{ text-decoration: none; color:#331144;}
+ul.menubar.movies a:hover{ text-decoration: none; color:#003344;} 
+ul.menubar.gaming a:hover{ text-decoration: none; color:#1F2E00;} 
+ul.menubar.tv a:hover{ text-decoration: none; color:#881166;} 
+
+/* Link colors for bottom-level links (in category pages) */
+ul.menubar.news li:hover ul li a:hover{ text-decoration: none; color:#666666;} 
+ul.menubar.politics li:hover ul li a:hover{ text-decoration: none; color:#550000;} 
+ul.menubar.tech li:hover ul li a:hover{ text-decoration: none; color:#001145;}  
+ul.menubar.sports li:hover ul li a:hover{ text-decoration: none; color:#542d00;} 
+ul.menubar.music li:hover ul li a:hover{ text-decoration: none; color:#331144;}
+ul.menubar.movies li:hover ul li a:hover{ text-decoration: none; color:#003344;} 
+ul.menubar.gaming li:hover ul li a:hover{ text-decoration: none; color:#1F2E00;} 
+ul.menubar.tv li:hover ul li a:hover{ text-decoration: none; color:#881166;} 
+
+
+a.nomargin {margin-left: 0px !important;}
+
+/* Content CSS */
+div.container {height:100%;}
+div.content { float: left; display:inline; width:60%; margin-left:5%; margin-right:5%; margin-bottom:40px; /*bottom:0px; height:58%; overflow:scroll*/}
+div.content img {max-width:100%; height:auto;}
+div.content img.aligncenter { display:block; clear:both; margin-left: auto; margin-right: auto; margin-top: 20px; margin-bottom: 20px;} 
+div.content img.alignnone { display:block; clear:both; margin-left: auto; margin-right: auto; margin-top: 20px; margin-bottom: 20px;}
+div.content p {line-height: 1.67em;}
+
+span.caption {font-style: italic; font-size:90%; color:#757575;}
+
+/* Footer CSS */
+
+footer {margin:2%; text-align:center; font-size:80%; color:#666666}
+
+footer a:hover {color:#333333;}
+footer a{color:#666666;}
+
+/* Sidebar CSS */
+
+div.sidebar_wrapper{display:inline; float:right; width:28%; margin-top:1%; margin-left:1%; margin-right:1%; }
+
+/*link and HR colors for sidebar*/
+div.sidebar_wrapper div.sidebar_title a {color:#999999;}
+div.sidebar_wrapper.news div.sidebar_title a {color:#000000;}
+div.sidebar_wrapper.politics div.sidebar_title a {color:#CC0000;}
+div.sidebar_wrapper.tech div.sidebar_title a {color:#0033CC;}
+div.sidebar_wrapper.sports div.sidebar_title a {color:#542d00;}
+div.sidebar_wrapper.music div.sidebar_title a {color:#9933CC;}
+div.sidebar_wrapper.movies div.sidebar_title a {color:#0099CC;}
+div.sidebar_wrapper.gaming div.sidebar_title a {color:#669900;}
+div.sidebar_wrapper.tv div.sidebar_title a {color:#FF3399;}
+
+div.sidebar_wrapper div.sidebar_title a:hover {color:#333333;}
+div.sidebar_wrapper.news div.sidebar_title a:hover {color:#666666;}
+div.sidebar_wrapper.politics div.sidebar_title a:hover {color:#550000;}
+div.sidebar_wrapper.tech div.sidebar_title a:hover {color:#001145;}
+div.sidebar_wrapper.sports div.sidebar_title a:hover {color:#542d00;}
+div.sidebar_wrapper.music div.sidebar_title a:hover {color:#331144;}
+div.sidebar_wrapper.movies div.sidebar_title a:hover {color:#003344;}
+div.sidebar_wrapper.gaming div.sidebar_title a:hover {color:#1F2E00;}
+div.sidebar_wrapper.tv div.sidebar_title a:hover {color:#881166;}
+
+div.news hr {background-color:#000000;}
+div.politics hr {background-color:#CC0000;}
+div.tech hr {background-color:#0033CC;}
+div.sports hr {background-color:#FF8800;}
+div.music hr {background-color:#9933CC;}
+div.movies hr {background-color:#0099CC;}
+div.gaming hr {background-color:#669900;}
+div.tv hr {background-color:#FF3399;}
+
+/*rest of sidebar CSS*/
+
+div.sidebar { float: right; margin-bottom:10px; height:80%; overflow-y:hidden; overflow-x:hidden;}
+div.sidebar:hover {overflow-y:scroll;}
+div.sidebar.fixed{position:fixed;}
+div.sidebar_title.fixed {position:fixed; top:36px;}
+
+div.sidebar_item {display:block; overflow:auto; width:100%;}
+
+img.thumbnail{float:left; width:100px; margin-right:10px;}
+
+p.nomargin {margin:0px 20px 0px 0px;}
+
+span.timestamp { font-size:80%; color:#666666;}
+
+a.sidebar_gray {color:#999999;}
+a.sidebar_gray:hover {color:#333333;}
