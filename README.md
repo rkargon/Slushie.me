@@ -2,7 +2,7 @@ Slushie.me
 ==========
 
 A simple news / blog website.
-It is currently hosted at: http://slushie.me
+It is currently hosted at: http://slushie.raphaelkargon.com/
 
 Contributors to the project include:
 * Raphael Kargon (<a href="http://github.com/rkargon">rkargon</a>)
